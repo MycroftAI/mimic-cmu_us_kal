@@ -1,0 +1,16 @@
+[submodule "subprojects/pcre2"]
+	path = subprojects/pcre2
+	url = https://github.com/MycroftAI/pcre2_meson
+	branch = 10.23
+[submodule "subprojects/HTSEngine"]
+	path = subprojects/HTSEngine
+	url = https://github.com/MycroftAI/htsengine_meson
+	branch = master
+[submodule "subprojects/mimic-core"]
+	path = subprojects/mimic-core
+	url = https://github.com/MycroftAI/mimic-core
+	branch = development
+[submodule "subprojects/mimic-english"]
+	path = subprojects/mimic-english
+	url = https://github.com/MycroftAI/mimic-english
+	branch = development
