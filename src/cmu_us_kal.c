@@ -115,12 +115,12 @@ static cst_utterance *cmu_us_kal_postlex(cst_utterance *u)
     return u;
 }
 
-void voice_cmu_us_kal_plugin_init()
+void voice_cmu_us_kal_plugin_init(mimic_context *ctx)
 {
-   mimic_voice_list = cons_val(voice_val(register_cmu_us_kal(NULL)), mimic_voice_list);
+    mimic_voice_add(ctx, register_cmu_us_kal(NULL));
 }
 
-void voice_cmu_us_kal_plugin_exit()
+void voice_cmu_us_kal_plugin_exit(mimic_context *ctx)
 {
 }
 
